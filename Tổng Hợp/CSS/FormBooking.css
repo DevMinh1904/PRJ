@@ -1,0 +1,59 @@
+
+.booking-function {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+  }
+  .form-input {
+    width: 30%;
+    height: 600px;
+    padding: 1%;
+    border: 1px solid #08a2c7;
+  }
+  .choose-tour {
+    background-color: #11b4aa;
+    padding: 1.5%;
+    text-align: center;
+    color: white;
+  }
+  .form-input-content {
+    background-color: #e7e3e4;
+    padding: 1%;
+  }
+  .input-group {
+    width: 100%;
+    display: flex;
+    margin: 4% 0;
+    height: 30px;
+  }
+  .input-group > label {
+    width: 130px;
+  }
+  .input-group > input,
+  select {
+    width: 200px;
+  }
+  
+  .button-bookTour {
+    margin: 3% 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .btn-book {
+    padding: 3% 10%;
+    background-color: #ee821e;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  .total-display {
+    background-color: green;
+    color: white;
+    padding: 1% 0;
+    text-align: center;
+  }

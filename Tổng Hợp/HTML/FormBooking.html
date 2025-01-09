@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/FormBooking.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="booking-function">
+        <form class="form-input">
+          <div class="choose-tour">
+            <h3 class="title">Choose your favorite tour</h3>
+          </div>
+          <div class="form-input-content">
+            <h4>150$/person</h4>
+  
+            <div class="input-group tour">
+              <label for="Tour">Tour</label>
+              <select>
+                <option value="">TP-HCM - Ca Mau</option>
+                <option value="">TP-HCM - Ha Noi</option>
+                <option value="">TP-HCM - Kien Giang</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="soLuongNguoi">Number of people</label>
+              <input id="soLuongNguoi" type="text" />
+            </div>	
+            <div class="input-group">
+              <label for="">Departure day</label>
+              <input type="date" />
+            </div>
+            <div class="input-group">
+              <label for="">End date</label>
+              <input type="date" />
+            </div>
+            <div class="input-group">
+              <label for="">Fullname</label>
+              <input type="text" />
+            </div>
+            <div class="input-group">
+              <label for="">Phone</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="button-bookTour">
+            <button type="button" onclick="tinhTongTien()" class="btn-book">Book Tour</button>
+          </div>
+  
+          <div class="total-display">
+            <div>Total amount: <span id="hienThiTongTien"></span>$</div>
+          </div>
+        </form>
+      </div>
+      <script src="../JS/FormBooking.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+.logo>img{
+    width: 100px;
+}
+
+.content-header{
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+   align-items: end;
+   margin: 0 20px;
+}
+
+/* Độ dài cho thanh input */
+.search{
+    width: 35%;
+    margin-left:20%;
+}
+
+/* Thanh menu */
+/* Mẹo cho thanh ở giữa */
+#navigationbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu{
+    margin: 10px;
+}
+/* Description */
+#blue-content{
+    justify-content: center;
+    display: flex;
+    color: aqua;
+    justify-content: center;
+}
+#infor1{
+    justify-content: center;
+    display: flex;
+    margin: 20px 10px;
+}
+
+/* Căn chỉnh ảnh */
+#right img{
+    width: 60%;
+}
+#right{
+    padding-left: 80px;
+}
+
+#orange{
+    color: orange;
+}
+
+.right2{
+    padding-left: 50px;
+}
+
+
+#final{
+    width: 180px;
+}
+
+/* Banner ở dưới cùng */
+.footer{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+}
+/* Tạo cấu hình cho điện thoại */
+@media screen and (max-width: 768px) {
+    .content-header{
+      display: block;  
+      text-align: center; /*Chỉ dùng cho chữ và img*/
+    }
+
+    .search{
+        margin: 0 auto;  /*Thanh input ở giữa*/
+    }
+
+    .logo>img{
+        margin-bottom: 10px;
+    }
+}

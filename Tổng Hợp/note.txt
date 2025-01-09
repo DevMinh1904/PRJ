@@ -1,0 +1,71 @@
+HTML cần lưu ý
+p, h1-h6 ( h càng to thì font-size càng nhỏ)
+<a href="url">text</a>
+<img src="url"> (alt nếu cần thiết)
+<input type=""> (nếu có chữ gợi ý trong input thì sài attribute là placeholder)
+<button type="button">text</button>
+
+Trong 1 Ul có nhiều li
+<ul>
+	<li>text</li>
+</ul>
+
+Trong 1 select có nhiều option
+<select>
+	<option value = "">text</option>
+</select>
+
+Các thẻ cấu trúc: Div, Section, Main, Header, Footer,...
+Những thẻ này thay thế cho Div và nó cũng chỉ dùng để phân cấu trúc thôi chức năng nhu thẻ Div
+
+CSS cần lưu ý
+FlexBox CSS.
+Khi nào muốn những div hoặc các elements bên trong nằm ngang nhau thì gọi class cha chứa nó rồi display:flex
+Khi nào muốn cả 3 cái đó căn đều ra hoặc cùng ra giữa màn hình ( theo chiều ngang ) thì sài justify-content
+Nếu nó không thẳng hàng thì sài align-items ( theo chiều dọc )
+Nếu muốn cách đều các thằng nhỏ bên trong ví dụ cách li trong ul thì nên sài gap:1.5rem.(phải có display-flex)
+Nếu display flex nằm ngang rồi nhưng kêu theo hướng dọc thì có thể sài flex-direction: column (tìm hiểu thêm reserve gì đó (đảo chiều))
+Nghiên cứu thêm flex-wrap
+
+Khi gặp hình muốn nhỏ lại thì đi từ class cha của hình rồi vào hình mới chỉnh width ( ví dụ: .image-logo>img{css}). (width nên set là %, có thể px ví dụ như set cho thẻ input)
+Nếu có 2 hình gần nhau mà muốn đều nhau thì sài thêm heigh (nên set là px)
+Margin là đẩy chính nó ra xa với cái khác
+Padding là rộng chính nó 
+Có thể sài margin, padding-top, margin-bottom: nếu muốn sài cho 1 chiều
+
+Font thì có font-size(cỡ chữ), font-weight (độ đậm), font-family(kiểu chữ)
+
+Bỏ dấu chấm tròn trước list(li) thì gọi vào li xong list-style:none
+Bỏ dấu gạch chân dưới thẻ a thì text-decor gì đó rồi none
+Bỏ border thì border:none, sài thì border: 1px solid black
+Có thể sài Box-shadow: 4px 4px 4px grey để tạo khung( gọi thẻ bự nha )
+
+Javascript:
+Xem lại cách đặt id ở chổ cần lấy
+Lấy value từ cái id đó thì nhớ chấm value ra
+Cách chạy 1 hàm là bỏ onClick tên hàm thì có () ngoài sau vào trong thẻ button
+Lấy vào thì Document.getEmlementsByID("id")
+Đẩy ra ngoài html thì .innerHTML
+
+Bootstrap:
+Container, col,row,...
+chủ yếu người ta sẽ chấm phần chia layout bằng bootstrap thôi ví dụ
+<div class="container">
+	<div class="row">
+		<div class=col-3>
+có thể sài kiểu:
+<div class="d-flex"> thay cho việc gọi vào css rồi display-flex
+Nghiên cứu thêm 1 số class
+
+Responsive:
+@media screen and (max-width:..px) {
+	.vidu{
+	width:100%
+	}
+	.tieptheo{
+	}
+}
+
+ví dụ dạng desktop thì thường là 1440px là CSS bình thường
+còn khi kêu dạng ipad thì vào inspect(f12) chọn cái bảng ipadpro xong lấy số px của nó +1 rồi bỏ vào max-width(ví dụ:
+ipad là 1024px thì bỏ vào max-width là 1025px, phone thì 430px thì bỏ vào 431px

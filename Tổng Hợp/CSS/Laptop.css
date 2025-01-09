@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .menu > ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .menu > ul > li {
+    list-style: none;
+    /* margin: 0 2%; */
+  }
+  .menu > ul > li > a {
+    text-decoration: none;
+    color: rgb(25, 152, 110);
+    font-weight: bolder;
+  }
+  .logo > a > img {
+    width: 50%;
+  }
+  
+  .search {
+    width: 20%;
+  }
+  .search > form > input {
+    padding: 2%;
+  }
+  .search > form > button {
+    padding: 2%;
+    background-color: orange;
+    color: white;
+    border: 2px solid rgb(189, 131, 24);
+  }
+  .banner {
+    width: 100%;
+    display: flex;
+  }
+  .banner > img {
+    width: 50%;
+  }
+  
+  #red-center {
+    text-align: center;
+    color: red;
+    margin: 3% 0;
+  }
+  #blue-text {
+    color: rgb(25, 152, 110);
+  }
+  .content-seller {
+    width: 100%;
+  }
+  .left-content {
+    width: 50%;
+    float: left;
+  }
+  
+  .left-content > img {
+    width: 60%;
+    margin-left: 10%;
+  }
+  
+  .right-content {
+    float: right;
+    width: 50%;
+  }
+  .gift {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+  }
+  .left-gift {
+    width: 50%;
+    float: left;
+  }
+  .right-gift {
+    width: 50%;
+    float: right;
+  }
+  .left-gift > img,
+  .right-gift > img {
+    width: 50%;
+    height: 200px;
+  }
+  
+  span {
+    color: orange;
+  }
+  
+  .product-new {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .w-100 {
+    width: 100%;
+  }
+  .content-new {
+    width: 20%;
+    text-align: center;
+    box-shadow: 4px 5px 10px gray;
+  }
+  .content-new > img {
+    width: 90%;
+    height: 250px;
+  }
+  .productname {
+    background: orange;
+    padding: 2% 0;
+    color: white;
+  }
+  
+  .footer{
+      background-color: black;
+      color: white;
+      line-height: 30px;
+      text-align: center;
+      margin-top: 5%;
+      padding: 3% 0;
+  }

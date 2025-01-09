@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="choiceForm">
+        <div class="txt-input">
+          <label for="coconut">Coconut</label>
+          <input type="checkbox" id="coconut" name="choices" value="10">
+        </div>
+        <div class="txt-input">
+          <label for="orange">Orange</label>
+          <input type="checkbox" id="orange" name="choices" value="20">
+        </div>
+        <div class="txt-input">
+          <label for="banana">Banana</label> 
+          <input type="checkbox" id="banana" name="choices" value="30">
+        </div>
+        <button type="button" onclick="showTotal()">Choice</button>
+      </form>
+      
+      <form id="resultForm" class="hidden">
+        <p>Your choices: <span id="chosen"></span></p>
+        <p>Total is: <span id="total"></span></p>
+      </form>
+      <script src="../JS/ShowLabel.js"></script>
+</body>
+</html>
