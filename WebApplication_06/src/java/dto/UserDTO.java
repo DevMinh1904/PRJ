@@ -1,30 +1,29 @@
 /*
+ * Data Transfer Object (DTO)
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package models;
+package dto;
 
 /**
  *
  * @author ducmi
  */
-public class User {
+public class UserDTO {
     private String userID;
     private String fullName;
     private String roleID;
     private String password;
-    private String address;
 
-    public User() {
+    public UserDTO() {
     }
-    
-    public User(String userID, String fullName, String roleID, String password, String address) {
+
+    public UserDTO(String userID, String fullName, String roleID, String password) {
         this.userID = userID;
         this.fullName = fullName;
         this.roleID = roleID;
         this.password = password;
-        this.address = address;
     }
 
     public String getUserID() {
@@ -59,12 +58,9 @@ public class User {
         this.password = password;
     }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+    @Override
+    public String toString() {
+        return "UserDTO{" + "userID=" + userID + ", fullName=" + fullName + ", roleID=" + roleID + ", password=" + password + '}';
     }
     
     
