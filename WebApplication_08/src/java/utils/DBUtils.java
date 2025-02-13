@@ -8,17 +8,15 @@ package utils;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
  *
- * @author tungi
+ * @author ducmi
  */
 public class DBUtils {
-
-    private static final String DB_Name = "Web_05_a";
+    private static final String DB_Name = "prj301_1805_slot8";
     private static final String DB_Username = "sa";
     private static final String DB_Password = "12345";
 
@@ -35,12 +33,7 @@ public class DBUtils {
             Connection c = getConnection();
             System.out.println(c);
             
-            String sql = "INSERT INTO products (product_id, product_name, price, category, stock_quantity) VALUES " +
-                    "(12, N'Samsung Galaxy S25', 35000000, N'Phone', 15)";
             
-            Statement st = c.createStatement();
-            int i = st.executeUpdate(sql);
-            System.out.println(i);
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
