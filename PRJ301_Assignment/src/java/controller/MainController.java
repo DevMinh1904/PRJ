@@ -5,9 +5,7 @@
  */
 package controller;
 
-import dao.BookDAO;
 import dao.UserDAO;
-import dto.BookDTO;
 import dto.UserDTO;
 import java.io.IOException;
 import java.util.List;
@@ -64,10 +62,9 @@ public class MainController extends HttpServlet {
                     url = "login.jsp";
                 } else if (action.equals("search")) {
                     url = "search.jsp";
-                    BookDAO bdao = new BookDAO();
+                    
                     String searchTerm = request.getParameter("searchTerm");
-                    List<BookDTO> books = bdao.searchByTitle(searchTerm);
-                    request.setAttribute("books", books);
+                    url = "login.jsp";
                 }
             }
         } catch (Exception e) {
