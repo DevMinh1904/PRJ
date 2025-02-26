@@ -7,81 +7,73 @@ package dto;
 
 /**
  *
- * @author ducmi
+ * @author tungi
  */
 public class BookDTO {
-    
-    private String BookID;
-    private String Title;
-    private String Author;
-    private int PublishYear;
-    private double Price;
-    private int Quantity;
+    private String bookID;
+    private String title;
+    private String author;
+    private int publishYear;
+    private double price;
+    private int quantity;
 
     public BookDTO() {
     }
 
-    public BookDTO(String BookID, String Title, String Author, int PublishYear, double Price, int Quantity) {
-        this.BookID = BookID;
-        this.Title = Title;
-        this.Author = Author;
-        this.PublishYear = PublishYear;
-        this.Price = Price;
-        this.Quantity = Quantity;
+    public BookDTO(String bookID, String title, String author, int publishYear, double price, int quantity) {
+        this.bookID = bookID;
+        this.title = title;
+        this.author = author;
+        this.publishYear = publishYear;
+        this.price = price;
+        this.quantity = quantity;
     }
 
     public String getBookID() {
-        return BookID;
+        return bookID;
     }
 
-    public void setBookID(String BookID) {
-        this.BookID = BookID;
+    public void setBookID(String bookID) {
+        this.bookID = bookID;
     }
 
     public String getTitle() {
-        return Title;
+        return title;
     }
 
-    public void setTitle(String Title) {
-        this.Title = Title;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getAuthor() {
-        return Author;
+        return author;
     }
 
-    public void setAuthor(String Author) {
-        this.Author = Author;
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public int getPublishYear() {
-        return PublishYear;
+        return publishYear;
     }
 
-    public void setPublicYear(int PublicYear) {
-        this.PublishYear = PublicYear;
+    public void setPublishYear(int publishYear) {
+        this.publishYear = publishYear;
     }
 
     public double getPrice() {
-        return Price;
+        return price;
     }
 
-    public void setPrice(double Price) {
-        this.Price = Price;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     public int getQuantity() {
-        return Quantity;
+        return quantity;
     }
 
-    public void setQuantity(int Quantity) {
-        this.Quantity = Quantity;
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
-
-    @Override
-    public String toString() {
-        return "BookDTO{" + "BookID=" + BookID + ", Title=" + Title + ", Author=" + Author + ", PublishYear=" + PublishYear + ", Price=" + Price + ", Quantity=" + Quantity + '}';
-    }
-    
-    
 }

@@ -15,7 +15,7 @@ import utils.DBUtils;
 
 /**
  *
- * @author ducmi
+ * @author tungi
  */
 public class BookDAO implements IDAO<BookDTO, String> {
 
@@ -49,7 +49,7 @@ public class BookDAO implements IDAO<BookDTO, String> {
         return null;
     }
 
-    public List<BookDTO> searchByID(String searchTerm){
+    public List<BookDTO> searchByTitle(String searchTerm) {
         String sql ="SELECT * FROM tblBooks WHERE title LIKE ?";
         List<BookDTO> list = new ArrayList<>();
         try {
@@ -72,5 +72,5 @@ public class BookDAO implements IDAO<BookDTO, String> {
         }
         return list;
     }
-    
+
 }

@@ -18,21 +18,26 @@
         <%@include file="header.jsp" %>
         <div style="min-height: 500px; padding: 20px">
 
+
+
             <%
-                UserDTO user = (UserDTO) request.getAttribute("user");
+                if (session.getAttribute("user") != null) {
+
+                    UserDTO user = (UserDTO) session.getAttribute("user");
             %>
             Welcome <b> <%=user.getFullName()%> </b>
+            <br/>
 
-            <form>
+            <form action="MainController">
                 <input type="hidden" name="action" value="logout"/>
                 <input type="submit" value="Logout"/>
             </form>
+
             <hr/>
             <form action="MainController">
                 <input type="hidden" name="action" value="search"/>
                 Search Books <input type="text" name="searchTerm" />
                 <input type="submit" value="Search"/>
-
             </form>
             <br/>
             <br/>
@@ -67,9 +72,9 @@
             <%
                 }
             %>
-            else { 
+            <% } else { %>
             You do not have permission to access this content.
-            }
+            <% }%>
 
         </div>
         <%@include file="footer.jsp" %>

@@ -10,6 +10,7 @@ import dao.UserDAO;
 import dto.BookDTO;
 import dto.UserDTO;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -60,10 +61,10 @@ public class MainController extends HttpServlet {
                         url = "login.jsp";
                     }
                 } else if (action.equals("logout")) {
-                    request.getSession().invalidate();
-                    url = "login.jsp";
+                    request.getSession().invalidate(); // Hủy session
+                    url ="login.jsp";
                 } else if (action.equals("search")) {
-                    url = "search.jsp";
+                    url ="search.jsp";
                     BookDAO bdao = new BookDAO();
                     String searchTerm = request.getParameter("searchTerm");
                     List<BookDTO> books = bdao.searchByTitle(searchTerm);

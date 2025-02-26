@@ -91,10 +91,11 @@
 
                     <button type="submit" class="submit-btn">Đăng nhập</button>
                 </form>
+                
                 <%
-                    String message = request.getAttribute("message") + "";
+                    String message = request.getAttribute("message")+"";
                 %>
-                <%=message.equals("null") ? "" : message%>
+                <%=message.equals("null")?"":message%>
             </div>
         </div>
         <%@include file="footer.jsp" %>
