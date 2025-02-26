@@ -7,7 +7,7 @@
     }
 
     .header {
-        background-color: #2c3e50;
+        background-color: #D70018;
         padding: 1rem 0;
         width: 100%;
         top: 0;

@@ -1,7 +1,7 @@
 <%-- 
     Document   : search
-    Created on : Feb 13, 2025, 1:42:26 PM
-    Author     : tungi
+    Created on : Feb 13, 2025, 2:29:20 PM
+    Author     : ducmi
 --%>
 
 <%@page import="dto.UserDTO"%>
@@ -13,20 +13,14 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <%@include file="header.jsp" %>
-        <div style="min-height: 500px; padding: 20px">
-
-            <%
-                UserDTO user = (UserDTO) request.getAttribute("user");
-            %>
-            Welcome <b> <%=user.getFullName()%> </b>
-            <a href="MainController?action=logout">Logout</a>
-            <hr/>
-            <form action="#">
-                Search Value <input type="text" name="txtSearchValue" />
-                <input type="submit" value="Login"/>
-            </form>
-        </div>
-        <%@include file="footer.jsp" %>
-    </body>
+        <%
+            UserDTO user = (UserDTO)request.getAttribute("user");
+        %>
+        Welcome <b> <%=user.getFullName() %> </b>
+        <a href="MainController?action=logout">Logout</a>
+        <hr/>
+        <form action="#">
+            Search Value <input type="text" name="txtSearchValue" />
+            <input type="submit" value="Login"/>
+        </form>    </body>
 </html>
