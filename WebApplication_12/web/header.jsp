@@ -7,7 +7,7 @@
     }
 
     .header {
-        background-color: #D70018;
+        background-color: #2c3e50;
         padding: 1rem 0;
         width: 100%;
         top: 0;
@@ -76,7 +76,7 @@
    
     <div class="container">
         <nav class="nav">
-            <a href="#" class="logo">Laptop Nation</a>
+            <a href="#" class="logo">SHOP ONLINE</a>
             <ul class="menu">
                 <li class="menu-item"><a href="#">Trang chủ</a></li>
                 <li class="menu-item"><a href="#">Sản phẩm</a></li>
