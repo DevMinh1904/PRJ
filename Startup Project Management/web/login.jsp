@@ -11,31 +11,22 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Startup Project Management</title>
     </head>
+    <%@include file="header.jsp" %>
     <body>
         <div class="login-container">
-            <div class="login-form">
-                <h2 class="form-title">Login</h2>
-                <form action="MainController" method="post">
-                    <input type="hidden" name="action" value="login" />
-
-                    <div class="form-group">
-                        <label for="userId">Username</label>
-                        <input type="text" id="username" name="txtUsername" required />
-                    </div>
-
-                    <div class="form-group">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="txtPassword" required />
-                    </div>
-
-                    <button type="submit" class="submit-btn">Login</button>
-                </form>
-                
-                <%
-                    String message = request.getAttribute("message")+"";
-                %>
-                <%=message.equals("null")?"":message%>
-            </div>
+            <h2>Login</h2>
+            <form action="MainController" method="post">
+                <input type="hidden" name="action" value="login">
+                <label>Username:</label>
+                <input type="text" name="txtUserID" required>
+                <label>Password:</label>
+                <input type="password" name="txtPassword" required>
+                <button type="submit">Sign in</button>
+            </form>
+            <% if (request.getAttribute("message") != null) {%>
+            <div class="error"><%= request.getAttribute("message")%></div>
+            <% }%>
+            <%@include file="footer.jsp" %>
         </div>
     </body>
 </html>

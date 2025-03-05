@@ -16,7 +16,6 @@ import javax.servlet.http.HttpSession;
 public class AuthUtils {
 
     private static final String ADMIN_ROLE = "Founder";
-    private static final String USER_ROLE = "Team Member";
 
     public static UserDTO getUser(String strUserID) {
         UserDAO udao = new UserDAO();
