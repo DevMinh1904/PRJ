@@ -82,4 +82,5 @@ public class BookDTO {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+    
 }
