@@ -4,6 +4,7 @@
     Author     : tungi
 --%>
 
+<%@page import="utils.AuthUtils"%>
 <%@page import="dto.BookDTO"%>
 <%@page import="java.awt.print.Book"%>
 <%@page import="java.util.List"%>
@@ -53,7 +54,6 @@
                 background-color: #f5f5f5;
                 transition: 0.3s ease;
             }
-
             /* Search section styles */
             .search-section {
                 background-color: #fff;
@@ -132,7 +132,6 @@
                 margin-right: 5px;
                 font-weight: bold;
             }
-
             /* Responsive design */
             @media screen and (max-width: 600px) {
                 .book-table {
@@ -149,10 +148,9 @@
     <body> 
         <%@include file="header.jsp" %>
         <div style="min-height: 500px; padding: 10px">
-            <%                if (session.getAttribute("user") != null) {
+            <%  if (session.getAttribute("user") != null) {
                     UserDTO user = (UserDTO) session.getAttribute("user");
             %>
-
             <%
                 String searchTerm = request.getAttribute("searchTerm") + "";
                 searchTerm = searchTerm.equals("null") ? "" : searchTerm;
@@ -165,15 +163,12 @@
                     <input type="submit" value="Search" class="search-btn"/>
                 </form>
             </div>
-            <% if (session.getAttribute("user") != null) {
-                    UserDTO user1 = (UserDTO) session.getAttribute("user");
-                    if (user1.getRoleID().equals("AD")) {
+            <%  if (AuthUtils.isAdmin(session)) {
             %>
             <a href="bookForm.jsp" class="add-btn">
-                Add New Book    
-            </a> 
-            <%}
-                }%>
+                Add
+            </a>
+            <%}%>
 
             <%
                 if (request.getAttribute("books") != null) {
@@ -189,13 +184,9 @@
                         <th>PublishYear</th>
                         <th>Price</th>
                         <th>Quantity</th>
-                            <% if (session.getAttribute("user") != null) {
-                                    UserDTO user1 = (UserDTO) session.getAttribute("user");
-                                    if (user1.getRoleID().equals("AD")) {
-                            %>
+                            <%  if (AuthUtils.isAdmin(session)) {%>
                         <th>Action</th>
-                            <%}
-                             }%>
+                            <%}%>
                     </tr>
                 </thead>
                 <tbody>
@@ -208,17 +199,11 @@
                         <td><%=b.getPublishYear()%></td>
                         <td><%=b.getPrice()%></td>
                         <td><%=b.getQuantity()%></td>
-                        <% if (session.getAttribute("user") != null) {
-                                UserDTO user1 = (UserDTO) session.getAttribute("user");
-                                if (user1.getRoleID().equals("AD")) {
-                        %>
+                        <%  if (AuthUtils.isAdmin(session)) {%>
                         <td><a href="MainController?action=delete&id=<%=b.getBookID()%>&searchTerm=<%=searchTerm%>">
-                                <img src="assets/images/delete-icon.png" style="height: 25px"/>
-
+                                <img src="assets/images/delete-icon.png"  style="height: 25px"/>                              
                             </a></td>
-
-                        <%}
-                                }%>
+                            <%}%>
                     </tr>
                     <%
                         }
