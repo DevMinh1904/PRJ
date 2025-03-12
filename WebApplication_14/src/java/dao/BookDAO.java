@@ -21,9 +21,9 @@ public class BookDAO implements IDAO<BookDTO, String> {
 
     @Override
     public boolean create(BookDTO entity) {
-        String sql = "INSERT INTO tblBooks "
-                + " (BookID, Title,Author,PublishYear,Price,Quantity) "
-                + " VALUES (?, ?, ?, ?, ?, ?) ";
+        String sql = "INSERT INTO tblBooks"
+                + " (BookID,Title,Author,PublishYear,Price,Quantity) "
+                + " VALUES (?,?,?,?,?,?)";
         try {
             Connection conn = DBUtils.getConnection();
             PreparedStatement ps = conn.prepareStatement(sql);
@@ -33,6 +33,7 @@ public class BookDAO implements IDAO<BookDTO, String> {
             ps.setInt(4, entity.getPublishYear());
             ps.setDouble(5, entity.getPrice());
             ps.setInt(6, entity.getQuantity());
+
             int i = ps.executeUpdate();
             return i > 0;
         } catch (Exception e) {
@@ -68,23 +69,21 @@ public class BookDAO implements IDAO<BookDTO, String> {
 
     public List<BookDTO> searchByTitle(String searchTerm) {
         String sql = "SELECT * FROM tblBooks WHERE title LIKE ?";
-        List<BookDTO> list = new ArrayList<BookDTO>();
-
+        List<BookDTO> list = new ArrayList<>();
         try {
             Connection conn = DBUtils.getConnection();
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setString(1, "%" + searchTerm + "%");
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                BookDTO b = new BookDTO(
+                BookDTO book = new BookDTO(
                         rs.getString("BookID"),
                         rs.getString("Title"),
                         rs.getString("Author"),
                         rs.getInt("PublishYear"),
                         rs.getDouble("Price"),
                         rs.getInt("Quantity"));
-
-                list.add(b);
+                list.add(book);
             }
         } catch (Exception e) {
             System.out.println(e.toString());
@@ -94,23 +93,21 @@ public class BookDAO implements IDAO<BookDTO, String> {
 
     public List<BookDTO> searchByTitle2(String searchTerm) {
         String sql = "SELECT * FROM tblBooks WHERE title LIKE ? AND Quantity>0";
-        List<BookDTO> list = new ArrayList<BookDTO>();
-
+        List<BookDTO> list = new ArrayList<>();
         try {
             Connection conn = DBUtils.getConnection();
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setString(1, "%" + searchTerm + "%");
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                BookDTO b = new BookDTO(
+                BookDTO book = new BookDTO(
                         rs.getString("BookID"),
                         rs.getString("Title"),
                         rs.getString("Author"),
                         rs.getInt("PublishYear"),
                         rs.getDouble("Price"),
                         rs.getInt("Quantity"));
-
-                list.add(b);
+                list.add(book);
             }
         } catch (Exception e) {
             System.out.println(e.toString());
@@ -124,6 +121,7 @@ public class BookDAO implements IDAO<BookDTO, String> {
             Connection conn = DBUtils.getConnection();
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setString(1, id);
+
             int i = ps.executeUpdate();
             return i > 0;
         } catch (Exception e) {
