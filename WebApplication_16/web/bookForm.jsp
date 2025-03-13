@@ -187,6 +187,76 @@
                 margin-bottom: 15px;
                 border-left: 4px solid #28a745;
             }
+            
+            .upload-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                margin-top: 10px;
+            }
+            
+            .file-upload-wrapper {
+                position: relative;
+                width: 100%;
+                height: 40px;
+                overflow: hidden;
+                margin-bottom: 10px;
+            }
+            
+            .file-upload-input {
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 0;
+                padding: 0;
+                font-size: 20px;
+                cursor: pointer;
+                opacity: 0;
+                height: 100%;
+                width: 100%;
+            }
+            
+            .file-upload-button {
+                width: 100%;
+                height: 40px;
+                background-color: #3498db;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 600;
+            }
+            
+            .file-upload-button:hover {
+                background-color: #2980b9;
+            }
+            
+            .file-info {
+                margin-top: 5px;
+                font-size: 14px;
+                color: #666;
+            }
+            
+            .progress-bar-container {
+                width: 100%;
+                height: 10px;
+                background-color: #f1f1f1;
+                border-radius: 5px;
+                margin-top: 10px;
+                display: none;
+            }
+            
+            .progress-bar {
+                height: 100%;
+                background-color: #4CAF50;
+                border-radius: 5px;
+                width: 0%;
+                transition: width 0.3s;
+            }
         </style>
     </head>
     <body>
@@ -218,15 +288,15 @@
                     } else {
                         book = (BookDTO) request.getAttribute("book");
                     }
-                    
-                    String action=request.getAttribute("action")+"";
-                    if(!action.equals("update")){
-                        action="add";
+
+                    String action = request.getAttribute("action") + "";
+                    if (!action.equals("update")) {
+                        action = "add";
                     }
                 %>
 
                 <form action="MainController" method="post">
-                    <input type="hidden" name="action" value="<%=action%>"/>
+                    <input type="hidden" name="action" value="${action}"/>
 
                     <div class="form-group">
                         <label for="txtBookID">Book ID:</label>
@@ -277,16 +347,26 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="txtImage">Image:</label>
-                        <input type="text" id="txtImage" name="txtImage" value="${book.image}" placeholder="Enter image URL or base64 data"/>
+                        <label for="txtImage">Book Cover Image:</label>
+                        <input type="hidden" id="txtImage" name="txtImage" value="${book.image}"/>
+                        <div class="upload-container">
+                            <div class="file-upload-wrapper">
+                                <button type="button" class="file-upload-button">Choose an Image</button>
+                                <input type="file" id="imageUpload" class="file-upload-input" accept="image/*"/>
+                            </div>
+                            <div class="file-info" id="fileInfo">No file selected</div>
+                            <div class="progress-bar-container" id="progressContainer">
+                                <div class="progress-bar" id="progressBar"></div>
+                            </div>
+                        </div>
                         <c:if test="${not empty requestScope.txtImage_error}">
                             <div class="error-message">${requestScope.txtImage_error}</div>
                         </c:if>
-                        <c:if test="${not empty book.image}">
-                            <div class="image-preview">
+                        <div class="image-preview" id="imagePreview">
+                            <c:if test="${not empty book.image}">
                                 <img src="${book.image}" alt="${book.title}"/>
-                            </div>
-                        </c:if>
+                            </c:if>
+                        </div>
                     </div>
 
                     <div class="button-group">
@@ -335,5 +415,89 @@
                 });
             });
         </script>
+        
+         <!-- Thêm jQuery từ CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        
+        <script>
+            $(document).ready(function() {
+                // Hiển thị tên file khi chọn file
+                $('#imageUpload').change(function() {
+                    const file = this.files[0];
+                    if (file) {
+                        // Kiểm tra xem file có phải là hình ảnh không
+                        if (!file.type.match('image.*')) {
+                            alert('Please select an image file (JPEG, PNG, GIF, etc.)');
+                            this.value = '';
+                            $('#fileInfo').text('No file selected');
+                            return;
+                        }
+                        
+                        // Hiển thị tên file và kích thước
+                        const fileSize = (file.size / 1024).toFixed(2) + ' KB';
+                        $('#fileInfo').text(file.name + ' (' + fileSize + ')');
+                        
+                        // Hiển thị thanh tiến trình và bắt đầu chuyển đổi sang Base64
+                        $('#progressContainer').show();
+                        
+                        // Thiết lập FileReader để đọc file và chuyển đổi sang Base64
+                        const reader = new FileReader();
+                        
+                        reader.onprogress = function(event) {
+                            if (event.lengthComputable) {
+                                const percentLoaded = Math.round((event.loaded / event.total) * 100);
+                                $('#progressBar').css('width', percentLoaded + '%');
+                            }
+                        };
+                        
+                        reader.onload = function(e) {
+                            // Hoàn thành tiến trình
+                            $('#progressBar').css('width', '100%');
+                            
+                            // Lưu trữ dữ liệu Base64 vào input ẩn
+                            const base64String = e.target.result;
+                            $('#txtImage').val(base64String);
+                            
+                            // Hiển thị hình ảnh xem trước
+                            $('#imagePreview').html('<img src="' + base64String + '" alt="Preview">');
+                            
+                            // Ẩn thanh tiến trình sau 1 giây
+                            setTimeout(function() {
+                                $('#progressContainer').hide();
+                                $('#progressBar').css('width', '0%');
+                            }, 1000);
+                        };
+                        
+                        reader.onerror = function() {
+                            alert('Error reading the file. Please try again.');
+                            $('#progressContainer').hide();
+                            $('#progressBar').css('width', '0%');
+                            $('#fileInfo').text('No file selected');
+                        };
+                        
+                        // Bắt đầu đọc file và chuyển đổi sang Base64
+                        reader.readAsDataURL(file);
+                    } else {
+                        $('#fileInfo').text('No file selected');
+                    }
+                });
+                
+                // Xử lý nút Reset
+                $('#resetBtn').click(function() {
+                    $('#imagePreview').empty();
+                    $('#fileInfo').text('No file selected');
+                    $('#txtImage').val('');
+                    $('#progressContainer').hide();
+                    $('#progressBar').css('width', '0%');
+                });
+                
+                  // Để chọn lại file đã tải lên trước đó (nếu có)
+                const existingImageSrc = $('#imagePreview img').attr('src');
+                if (existingImageSrc) {
+                    $('#txtImage').val(existingImageSrc);
+                }
+            });
+        </script>
+        
     </body>
 </html>
