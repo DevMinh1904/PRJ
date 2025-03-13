@@ -12,7 +12,7 @@
         <div class="footer-section">
             <h3>Liên kết nhanh</h3>
             <ul class="footer-links">
-                <li><a href="#">Trang chủ</a></li>
+                <li><a href="index.jsp">Trang chủ</a></li>
                 <li><a href="#">Sản phẩm</a></li>
                 <li><a href="#">Giỏ hàng</a></li>
                 <li><a href="#">Chính sách</a></li>
