@@ -348,7 +348,7 @@
 
                     <div class="form-group">
                         <label for="txtImage">Book Cover Image:</label>
-                        <input type="hidden" id="txtImage" name="txtImage" value="${book.image}"/>
+                        <input type="text" id="txtImage" name="txtImage" value="${book.image}"/>
                         <div class="upload-container">
                             <div class="file-upload-wrapper">
                                 <button type="button" class="file-upload-button">Choose an Image</button>
