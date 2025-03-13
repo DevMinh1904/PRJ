@@ -103,3 +103,9 @@
 127.0.0.1 - - [12/Mar/2025:12:51:28 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
 127.0.0.1 - robot [12/Mar/2025:12:51:28 +0700] "GET /manager/text/ HTTP/1.1" 200 39
 0:0:0:0:0:0:0:1 - - [12/Mar/2025:12:51:30 +0700] "GET /Online_Examination/login.jsp HTTP/1.1" 200 11712
+127.0.0.1 - - [12/Mar/2025:13:33:48 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - robot [12/Mar/2025:13:33:48 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [12/Mar/2025:13:33:48 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - robot [12/Mar/2025:13:33:48 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [12/Mar/2025:13:33:48 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - robot [12/Mar/2025:13:33:48 +0700] "GET /manager/text/ HTTP/1.1" 200 39
