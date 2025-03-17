@@ -108,22 +108,7 @@
 <body>
     <header class="header">
         <a href="index.jsp" class="logo">Online<span>Examination</span></a>
-        
-        <ul class="nav-menu">
-            <li><a href="index.jsp">Home</a></li>
-            <li><a href="products.jsp">Laptops</a></li>
-            <li><a href="#">Deals</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">About Us</a></li>
-        </ul>
-        
         <div class="search-cart">
-            <form class="search-form">
-                <input type="text" placeholder="Search laptops...">
-            </form>
             <a href="login.jsp" class="nav-menu-item">Login</a>
-            <a href="#" class="cart-icon">🛒
-                <span class="cart-count">0</span>
-            </a>
         </div>
     </header>

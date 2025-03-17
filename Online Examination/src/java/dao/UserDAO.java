@@ -146,4 +146,26 @@ public class UserDAO implements IDAO<UserDTO, String> {
         }
         return list;
     }
+    
+    public UserDTO checkLogin(String username, String password) {
+    String sql = "SELECT * FROM tblUsers WHERE username = ? AND password = ?";
+    try (Connection conn = DBUtils.getConnection();
+         PreparedStatement ps = conn.prepareStatement(sql)) {
+        ps.setString(1, username);
+        ps.setString(2, password);
+        try (ResultSet rs = ps.executeQuery()) {
+            if (rs.next()) {
+                UserDTO user = new UserDTO();
+                user.setUsername(rs.getString("username"));
+                user.setName(rs.getString("Name"));
+                user.setPassword(rs.getString("password"));
+                user.setRole(rs.getString("Role"));
+                return user;
+            }
+        }
+    } catch (ClassNotFoundException | SQLException ex) {
+        Logger.getLogger(UserDAO.class.getName()).log(Level.SEVERE, null, ex);
+    }
+    return null;
+}
 }

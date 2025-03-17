@@ -164,15 +164,15 @@
             <p>Please login to your account</p>
         </div>
         
-        <form action="login-process.jsp" method="post">
+        <form action="dashboard.jsp" method="post">
             <div class="form-group">
                 <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
+                <input type="text" id="username" name="txtusername" required>
             </div>
             
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
+                <input type="password" id="password" name="txtpassword" required>
             </div>
             
             <button type="submit" class="login-button">Login</button>
