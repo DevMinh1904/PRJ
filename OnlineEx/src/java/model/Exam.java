@@ -1,0 +1,85 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package model;
+
+
+public class Exam {
+    private int examId;
+    private String examTitle;
+    private String subject;
+    private int categoryId;
+    private String categoryName; 
+    private int totalMarks;
+    private int duration;
+    
+    public Exam() {
+    }
+    
+    public Exam(int examId, String examTitle, String subject, int categoryId, int totalMarks, int duration) {
+        this.examId = examId;
+        this.examTitle = examTitle;
+        this.subject = subject;
+        this.categoryId = categoryId;
+        this.totalMarks = totalMarks;
+        this.duration = duration;
+    }
+    
+    // Getters and setters
+    public int getExamId() {
+        return examId;
+    }
+    
+    public void setExamId(int examId) {
+        this.examId = examId;
+    }
+    
+    public String getExamTitle() {
+        return examTitle;
+    }
+    
+    public void setExamTitle(String examTitle) {
+        this.examTitle = examTitle;
+    }
+    
+    public String getSubject() {
+        return subject;
+    }
+    
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+    
+    public int getCategoryId() {
+        return categoryId;
+    }
+    
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
+    }
+    
+    public String getCategoryName() {
+        return categoryName;
+    }
+    
+    public void setCategoryName(String categoryName) {
+        this.categoryName = categoryName;
+    }
+    
+    public int getTotalMarks() {
+        return totalMarks;
+    }
+    
+    public void setTotalMarks(int totalMarks) {
+        this.totalMarks = totalMarks;
+    }
+    
+    public int getDuration() {
+        return duration;
+    }
+    
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
+}
