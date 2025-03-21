@@ -587,3 +587,9 @@
 127.0.0.1 - robot [17/Mar/2025:14:28:37 +0700] "GET /manager/text/list HTTP/1.1" 200 1067
 127.0.0.1 - robot [17/Mar/2025:14:28:38 +0700] "GET /manager/text/reload?path=/WebApplication_17 HTTP/1.1" 200 75
 0:0:0:0:0:0:0:1 - - [17/Mar/2025:14:28:38 +0700] "GET /WebApplication_17/login.jsp HTTP/1.1" 200 11204
+127.0.0.1 - - [17/Mar/2025:15:08:33 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - robot [17/Mar/2025:15:08:33 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [17/Mar/2025:15:08:33 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - robot [17/Mar/2025:15:08:33 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [17/Mar/2025:15:08:33 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - robot [17/Mar/2025:15:08:33 +0700] "GET /manager/text/ HTTP/1.1" 200 39
