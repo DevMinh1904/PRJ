@@ -1,0 +1,476 @@
+14-Apr-2025 11:53:11.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.99
+14-Apr-2025 11:53:11.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 22:52:13 UTC
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.99.0
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\logging.properties
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DucMinh
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\temp
+14-Apr-2025 11:53:11.087 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\dotnet\;C:\Users\ducmi\AppData\Local\Microsoft\WindowsApps;C:\Users\ducmi\AppData\Local\GitHubDesktop\bin;C:\Users\ducmi\AppData\Local\Programs\Microsoft VS Code\bin;.]
+14-Apr-2025 11:53:11.288 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Apr-2025 11:53:11.299 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 424 ms
+14-Apr-2025 11:53:11.328 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Apr-2025 11:53:11.328 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.99]
+14-Apr-2025 11:53:11.330 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Final_Project.xml]
+14-Apr-2025 11:53:11.346 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Final_Project] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Final_Project.xml] has been ignored
+14-Apr-2025 11:53:11.364 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@351e654d]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Final_Project\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:53:11.366 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Final_Project.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:714)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@351e654d]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Final_Project\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:53:11.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Final_Project.xml] has finished in [48] ms
+14-Apr-2025 11:53:11.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\OnlineEx.xml]
+14-Apr-2025 11:53:11.378 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/OnlineEx] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\OnlineEx.xml] has been ignored
+14-Apr-2025 11:53:11.716 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:11.881 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [141] milliseconds.
+14-Apr-2025 11:53:11.881 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\OnlineEx.xml] has finished in [503] ms
+14-Apr-2025 11:53:11.881 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301.xml]
+14-Apr-2025 11:53:11.881 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PE_PRJ301] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301.xml] has been ignored
+14-Apr-2025 11:53:12.002 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:12.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301.xml] has finished in [151] ms
+14-Apr-2025 11:53:12.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301_2.xml]
+14-Apr-2025 11:53:12.032 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PE_PRJ301_2] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301_2.xml] has been ignored
+14-Apr-2025 11:53:12.212 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:12.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301_2.xml] has finished in [191] ms
+14-Apr-2025 11:53:12.225 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Startup_Project_Management.xml]
+14-Apr-2025 11:53:12.225 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Startup_Project_Management] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Startup_Project_Management.xml] has been ignored
+14-Apr-2025 11:53:12.324 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:12.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Startup_Project_Management.xml] has finished in [101] ms
+14-Apr-2025 11:53:12.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_14.xml]
+14-Apr-2025 11:53:12.324 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication_14] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_14.xml] has been ignored
+14-Apr-2025 11:53:12.457 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:12.467 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_14.xml] has finished in [143] ms
+14-Apr-2025 11:53:12.467 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_15.xml]
+14-Apr-2025 11:53:12.467 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication_15] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_15.xml] has been ignored
+14-Apr-2025 11:53:12.618 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:12.628 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_15.xml] has finished in [161] ms
+14-Apr-2025 11:53:12.628 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16.xml]
+14-Apr-2025 11:53:12.628 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication_16] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16.xml] has been ignored
+14-Apr-2025 11:53:12.774 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:12.782 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16.xml] has finished in [154] ms
+14-Apr-2025 11:53:12.782 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16_b.xml]
+14-Apr-2025 11:53:12.782 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication_16_b] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16_b.xml] has been ignored
+14-Apr-2025 11:53:12.894 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:12.905 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16_b.xml] has finished in [123] ms
+14-Apr-2025 11:53:12.905 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_17.xml]
+14-Apr-2025 11:53:12.905 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication_17] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_17.xml] has been ignored
+14-Apr-2025 11:53:13.101 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:13.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_17.xml] has finished in [196] ms
+14-Apr-2025 11:53:13.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2.xml]
+14-Apr-2025 11:53:13.101 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Workshop2] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2.xml] has been ignored
+14-Apr-2025 11:53:13.223 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:13.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2.xml] has finished in [122] ms
+14-Apr-2025 11:53:13.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2_basic.xml]
+14-Apr-2025 11:53:13.223 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Workshop2_basic] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2_basic.xml] has been ignored
+14-Apr-2025 11:53:13.223 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1ada8fea]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Workshop2_basic\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:53:13.223 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2_basic.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:714)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1ada8fea]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Workshop2_basic\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:53:13.271 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2_basic.xml] has finished in [48] ms
+14-Apr-2025 11:53:13.271 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop_02.xml]
+14-Apr-2025 11:53:13.271 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Workshop_02] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop_02.xml] has been ignored
+14-Apr-2025 11:53:13.271 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@9c3852f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Workshop_02\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:53:13.271 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop_02.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:714)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@9c3852f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Workshop_02\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:53:13.339 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop_02.xml] has finished in [66] ms
+14-Apr-2025 11:53:13.339 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\docs]
+14-Apr-2025 11:53:13.432 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:13.432 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\docs] has finished in [93] ms
+14-Apr-2025 11:53:13.432 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\examples]
+14-Apr-2025 11:53:13.679 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:13.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\examples] has finished in [271] ms
+14-Apr-2025 11:53:13.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\host-manager]
+14-Apr-2025 11:53:13.776 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:13.782 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\host-manager] has finished in [79] ms
+14-Apr-2025 11:53:13.782 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\manager]
+14-Apr-2025 11:53:13.865 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:13.865 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\manager] has finished in [83] ms
+14-Apr-2025 11:53:13.865 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\ROOT]
+14-Apr-2025 11:53:13.938 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:53:13.938 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\ROOT] has finished in [73] ms
+14-Apr-2025 11:53:13.938 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Apr-2025 11:53:13.958 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2651 ms
+14-Apr-2025 11:55:42.482 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Apr-2025 11:55:42.482 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Apr-2025 11:55:42.574 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Apr-2025 11:55:42.755 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Apr-2025 11:55:42.768 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.99
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 14 2024 22:52:13 UTC
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.99.0
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\logging.properties
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DucMinh
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\temp
+14-Apr-2025 11:55:45.680 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\dotnet\;C:\Users\ducmi\AppData\Local\Microsoft\WindowsApps;C:\Users\ducmi\AppData\Local\GitHubDesktop\bin;C:\Users\ducmi\AppData\Local\Programs\Microsoft VS Code\bin;.]
+14-Apr-2025 11:55:45.791 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Apr-2025 11:55:45.791 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 313 ms
+14-Apr-2025 11:55:45.815 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Apr-2025 11:55:45.815 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.99]
+14-Apr-2025 11:55:45.823 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Final_Project.xml]
+14-Apr-2025 11:55:45.834 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Final_Project] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Final_Project.xml] has been ignored
+14-Apr-2025 11:55:45.839 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2e1934a3]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Final_Project\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:55:45.839 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Final_Project.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:714)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2e1934a3]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Final_Project\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:55:45.902 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Final_Project.xml] has finished in [79] ms
+14-Apr-2025 11:55:45.902 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\OnlineEx.xml]
+14-Apr-2025 11:55:45.902 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/OnlineEx] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\OnlineEx.xml] has been ignored
+14-Apr-2025 11:55:46.187 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:46.313 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [115] milliseconds.
+14-Apr-2025 11:55:46.321 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\OnlineEx.xml] has finished in [419] ms
+14-Apr-2025 11:55:46.321 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301.xml]
+14-Apr-2025 11:55:46.321 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PE_PRJ301] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301.xml] has been ignored
+14-Apr-2025 11:55:46.424 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:46.424 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301.xml] has finished in [103] ms
+14-Apr-2025 11:55:46.424 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301_2.xml]
+14-Apr-2025 11:55:46.424 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PE_PRJ301_2] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301_2.xml] has been ignored
+14-Apr-2025 11:55:46.567 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:46.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\PE_PRJ301_2.xml] has finished in [155] ms
+14-Apr-2025 11:55:46.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Startup_Project_Management.xml]
+14-Apr-2025 11:55:46.579 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Startup_Project_Management] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Startup_Project_Management.xml] has been ignored
+14-Apr-2025 11:55:46.659 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:46.659 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Startup_Project_Management.xml] has finished in [80] ms
+14-Apr-2025 11:55:46.659 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_14.xml]
+14-Apr-2025 11:55:46.659 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication_14] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_14.xml] has been ignored
+14-Apr-2025 11:55:46.771 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:46.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_14.xml] has finished in [114] ms
+14-Apr-2025 11:55:46.773 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_15.xml]
+14-Apr-2025 11:55:46.773 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication_15] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_15.xml] has been ignored
+14-Apr-2025 11:55:46.896 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:46.898 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_15.xml] has finished in [125] ms
+14-Apr-2025 11:55:46.898 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16.xml]
+14-Apr-2025 11:55:46.904 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication_16] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16.xml] has been ignored
+14-Apr-2025 11:55:47.024 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:47.035 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16.xml] has finished in [137] ms
+14-Apr-2025 11:55:47.035 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16_b.xml]
+14-Apr-2025 11:55:47.035 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication_16_b] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16_b.xml] has been ignored
+14-Apr-2025 11:55:47.143 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:47.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_16_b.xml] has finished in [116] ms
+14-Apr-2025 11:55:47.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_17.xml]
+14-Apr-2025 11:55:47.151 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication_17] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_17.xml] has been ignored
+14-Apr-2025 11:55:47.292 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:47.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\WebApplication_17.xml] has finished in [147] ms
+14-Apr-2025 11:55:47.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2.xml]
+14-Apr-2025 11:55:47.298 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Workshop2] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2.xml] has been ignored
+14-Apr-2025 11:55:47.402 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:47.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2.xml] has finished in [104] ms
+14-Apr-2025 11:55:47.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2_basic.xml]
+14-Apr-2025 11:55:47.404 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Workshop2_basic] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2_basic.xml] has been ignored
+14-Apr-2025 11:55:47.406 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4e9958b2]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Workshop2_basic\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:55:47.406 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2_basic.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:714)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4e9958b2]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Workshop2_basic\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:55:47.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop2_basic.xml] has finished in [38] ms
+14-Apr-2025 11:55:47.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop_02.xml]
+14-Apr-2025 11:55:47.440 WARNING [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Workshop_02] in deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop_02.xml] has been ignored
+14-Apr-2025 11:55:47.442 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@197d879f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Workshop_02\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:55:47.442 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop_02.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:714)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:660)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:681)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1845)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@197d879f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4554)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4692)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\Workshop_02\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 13 more
+14-Apr-2025 11:55:47.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\conf\Catalina\localhost\Workshop_02.xml] has finished in [50] ms
+14-Apr-2025 11:55:47.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\docs]
+14-Apr-2025 11:55:47.572 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:47.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\docs] has finished in [82] ms
+14-Apr-2025 11:55:47.572 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\examples]
+14-Apr-2025 11:55:47.738 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:47.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\examples] has finished in [194] ms
+14-Apr-2025 11:55:47.767 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\host-manager]
+14-Apr-2025 11:55:47.849 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:47.851 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\host-manager] has finished in [84] ms
+14-Apr-2025 11:55:47.851 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\manager]
+14-Apr-2025 11:55:47.920 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:47.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\manager] has finished in [69] ms
+14-Apr-2025 11:55:47.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\ROOT]
+14-Apr-2025 11:55:47.992 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Apr-2025 11:55:47.997 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\ducmi\OneDrive\Documents\GitHub\PRJ301\IDE\apache-tomcat-8.5.99\webapps\ROOT] has finished in [77] ms
+14-Apr-2025 11:55:47.997 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Apr-2025 11:55:48.026 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2230 ms
+14-Apr-2025 11:57:45.223 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Apr-2025 11:57:45.223 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Apr-2025 11:57:45.318 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Apr-2025 11:57:45.420 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Apr-2025 11:57:45.435 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
